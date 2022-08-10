@@ -8,7 +8,7 @@ int func(int a) {
   int z = 1;
   while (x < a) {
     x += z;
-    if (x % 2 == 0) {
+    if (x % 2 == 1) {
       y += 1;
     }
   }
@@ -16,5 +16,5 @@ int func(int a) {
 }
 
 void main() {
-  print(func(20));
+  print(func(50));
 }
