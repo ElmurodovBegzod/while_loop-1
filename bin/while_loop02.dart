@@ -5,9 +5,8 @@
 int func(int a) {
   int x = 0;
   int y = 0;
-  int z = 1;
   while (x < a) {
-    x += z;
+    x += 1;
     if (x % 2 == 1) {
       y += 1;
     }
